@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="94">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201806171044"/>
+<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201806171044"/>
+<unit id="org.agentgui.feature.feature.group" version="2.1.1.201806171044"/>
+<unit id="org.agentgui.feature.source.feature.group" version="2.1.1.201806171044"/>
+<unit id="org.agentgui.samples.feature.feature.group" version="2.0.0.201804112015"/>
+<unit id="org.agentgui.samples.feature.source.feature.group" version="2.0.0.201804112015"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="de.enflexit.eom.feature.feature.group" version="2.1.0.201806180710"/>
+</location>
+</locations>
+</target>
