@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="94">
+<?pde version="3.8"?><target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="99">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201806171044"/>
@@ -11,6 +11,9 @@
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="de.enflexit.eom.feature.feature.group" version="2.1.0.201806180710"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="net.agenthygrid.feature.feature.group" version="2.0.0.201806180921"/>
 </location>
 </locations>
 </target>
