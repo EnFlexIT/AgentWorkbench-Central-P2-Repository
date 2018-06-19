@@ -18,10 +18,13 @@
    <feature id="org.agentgui.samples.feature.source" version="0.0.0">
       <category name="org.agentgui"/>
    </feature>
-   <feature url="features/de.enflexit.eom.feature_2.1.0.qualifier.jar" id="de.enflexit.eom.feature" version="2.1.0.qualifier" os="linux,macosx,win32" arch="x86,x86_64">
+   <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86,x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
-   <feature url="features/net.agenthygrid.feature_2.0.0.qualifier.jar" id="net.agenthygrid.feature" version="2.0.0.qualifier" os="linux,macosx,win32" arch="x86,x86_64">
+   <feature id="net.agenthygrid.feature" version="0.0.0" os="linux,macosx,win32" arch="x86,x86_64">
+      <category name="net.agenthygrid"/>
+   </feature>
+   <feature id="net.agenthygrid.feature.source" version="0.0.0">
       <category name="net.agenthygrid"/>
    </feature>
    <category-def name="org.agentgui" label="Agent.Workbench"/>
