@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="99">
+<?pde version="3.8"?><target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="107">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201806171044"/>
-<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201806171044"/>
-<unit id="org.agentgui.feature.feature.group" version="2.1.1.201806171044"/>
-<unit id="org.agentgui.feature.source.feature.group" version="2.1.1.201806171044"/>
+<unit id="org.eclipse.equinox.p2.sdk.feature.group" version="3.10.3.v20180207-1239"/>
+<unit id="org.eclipse.equinox.sdk.feature.group" version="3.13.4.v20180322-2228"/>
+<unit id="org.eclipse.rcp.feature.group" version="4.7.3.v20180330-0640"/>
+<repository location="http://download.eclipse.org/eclipse/updates/4.7"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201806180905"/>
+<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201806180905"/>
+<unit id="org.agentgui.feature.feature.group" version="2.1.1.201806190811"/>
+<unit id="org.agentgui.feature.source.feature.group" version="2.1.1.201806190811"/>
 <unit id="org.agentgui.samples.feature.feature.group" version="2.0.0.201804112015"/>
 <unit id="org.agentgui.samples.feature.source.feature.group" version="2.0.0.201804112015"/>
+<repository location="file:/home/cderksen/git/01_AgentGui-OSGI/eclipseProjects/org.agentgui/releng/org.agentgui.update/target/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="de.enflexit.eom.feature.feature.group" version="2.1.0.201806180710"/>
+<unit id="de.enflexit.eom.feature.feature.group" version="2.1.0.201806191044"/>
+<repository location="file:/home/cderksen/git/02_EOM-OSGI/eclipseProjects/de.enflexit.eom/releng/de.enflexit.eom.update/target/repository/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="net.agenthygrid.feature.feature.group" version="2.0.0.201806180921"/>
+<unit id="net.agenthygrid.feature.feature.group" version="2.0.0.201806191100"/>
+<repository location="file:/home/cderksen/git/03_HyGrid-OSGI/eclipseProjects/net.agenthygrid/releng/net.agenthygrid.update/target/repository/"/>
 </location>
 </locations>
 </target>
