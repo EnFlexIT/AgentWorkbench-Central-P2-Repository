@@ -45,9 +45,9 @@
 				<configuration>
 					<target>
 						<artifact>
-							<groupId>de.enflexit.eom</groupId>
-							<artifactId>de.enflexit.eom.target</artifactId>
-							<version>1.0.0-SNAPSHOT</version>
+							<groupId>de.enflexit.p2</groupId>
+							<artifactId>de.enflexit.p2.target</artifactId>
+							<version>4.8.0-SNAPSHOT</version>
 						</artifact>
 					</target>
 					<environments>
