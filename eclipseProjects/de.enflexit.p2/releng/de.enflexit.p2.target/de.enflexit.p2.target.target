@@ -7,22 +7,22 @@
 		<repository location="http://download.eclipse.org/eclipse/updates/4.8"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.0.201807061110"/>
-		<repository location="file:/home/cderksen/git/02_EOM-OSGI/eclipseProjects/de.enflexit.eom/releng/de.enflexit.eom.update/target/repository/"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="net.agenthygrid.feature.feature.group" version="2.0.0.201807061116"/>
-		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.0.201807061116"/>
-		<repository location="file:/home/cderksen/git/03_HyGrid-OSGI/eclipseProjects/net.agenthygrid/releng/net.agenthygrid.update/target/repository/"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201807042102"/>
-		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201807042102"/>
-		<unit id="org.agentgui.feature.feature.group" version="2.1.2.201807101022"/>
-		<unit id="org.agentgui.feature.source.feature.group" version="2.1.2.201807101022"/>
+		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201807152044"/>
+		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201807152044"/>
+		<unit id="org.agentgui.feature.feature.group" version="2.1.3.201807161325"/>
+		<unit id="org.agentgui.feature.source.feature.group" version="2.1.3.201807161325"/>
 		<unit id="org.agentgui.samples.feature.feature.group" version="2.0.0.201804112015"/>
 		<unit id="org.agentgui.samples.feature.source.feature.group" version="2.0.0.201804112015"/>
-		<repository location="file:/home/cderksen/git/01_AgentGui-OSGI/eclipseProjects/org.agentgui/releng/org.agentgui.update/target/repository/"/>
+		<repository location="https://p2.enflex.it/workbench/snapshots/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.0.201807161401"/>
+		<repository location="https://p2.enflex.it/eom/snapshots/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="net.agenthygrid.feature.feature.group" version="2.0.0.201807161404"/>
+		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.0.201807161404"/>
+		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
 	</location>
 </locations>
 </target>
