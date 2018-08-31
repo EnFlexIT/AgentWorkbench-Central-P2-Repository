@@ -7,21 +7,21 @@
 		<repository location="http://download.eclipse.org/eclipse/updates/4.8"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201808061353"/>
-		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201808061353"/>
-		<unit id="org.agentgui.feature.feature.group" version="2.1.3.201808251734"/>
-		<unit id="org.agentgui.feature.source.feature.group" version="2.1.3.201808251734"/>
+		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201808301203"/>
+		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201808301203"/>
+		<unit id="org.agentgui.feature.feature.group" version="2.1.3.201808301203"/>
+		<unit id="org.agentgui.feature.source.feature.group" version="2.1.3.201808301203"/>
 		<unit id="org.agentgui.samples.feature.feature.group" version="2.0.0.201804112015"/>
 		<unit id="org.agentgui.samples.feature.source.feature.group" version="2.0.0.201804112015"/>
 		<repository location="https://p2.enflex.it/workbench/snapshots/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.1.201808270844"/>
+		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.1.201808310841"/>
 		<repository location="https://p2.enflex.it/eom/snapshots/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="net.agenthygrid.feature.feature.group" version="2.0.1.201808270912"/>
-		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.1.201808270912"/>
+		<unit id="net.agenthygrid.feature.feature.group" version="2.0.1.201808310848"/>
+		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.1.201808310848"/>
 		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
 	</location>
 </locations>
