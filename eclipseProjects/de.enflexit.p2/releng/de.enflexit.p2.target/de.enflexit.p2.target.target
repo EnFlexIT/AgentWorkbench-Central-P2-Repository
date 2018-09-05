@@ -7,22 +7,22 @@
 		<repository location="http://download.eclipse.org/eclipse/updates/4.8"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201809041925"/>
-		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201809041925"/>
-		<unit id="org.agentgui.feature.feature.group" version="2.1.4.201809041925"/>
-		<unit id="org.agentgui.feature.source.feature.group" version="2.1.4.201809041925"/>
+		<unit id="net.agenthygrid.feature.feature.group" version="2.0.1.201809052148"/>
+		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.1.201809052148"/>
+		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201809051908"/>
+		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201809051908"/>
+		<unit id="org.agentgui.feature.feature.group" version="2.1.4.201809051908"/>
+		<unit id="org.agentgui.feature.source.feature.group" version="2.1.4.201809051908"/>
 		<unit id="org.agentgui.samples.feature.feature.group" version="2.0.0.201804112015"/>
 		<unit id="org.agentgui.samples.feature.source.feature.group" version="2.0.0.201804112015"/>
 		<repository location="https://p2.enflex.it/workbench/snapshots/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.1.201809042006"/>
+		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.1.201809052142"/>
 		<repository location="https://p2.enflex.it/eom/snapshots/"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="net.agenthygrid.feature.feature.group" version="2.0.1.201809042015"/>
-		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.1.201809042015"/>
-		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
 	</location>
 </locations>
 </target>
