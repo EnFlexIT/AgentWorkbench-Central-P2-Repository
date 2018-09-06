@@ -12,17 +12,17 @@
 		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.1.201809052142"/>
+		<repository location="https://p2.enflex.it/eom/snapshots/"/>
+	</location>
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="de.enflexit.common.feature.feature.group" version="2.0.1.201809051908"/>
 		<unit id="de.enflexit.common.feature.source.feature.group" version="2.0.1.201809051908"/>
-		<unit id="org.agentgui.feature.feature.group" version="2.1.4.201809051908"/>
-		<unit id="org.agentgui.feature.source.feature.group" version="2.1.4.201809051908"/>
+		<unit id="org.agentgui.feature.feature.group" version="2.1.4.201809061428"/>
+		<unit id="org.agentgui.feature.source.feature.group" version="2.1.4.201809061428"/>
 		<unit id="org.agentgui.samples.feature.feature.group" version="2.0.0.201804112015"/>
 		<unit id="org.agentgui.samples.feature.source.feature.group" version="2.0.0.201804112015"/>
 		<repository location="https://p2.enflex.it/workbench/snapshots/"/>
-	</location>
-	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.eom.feature.feature.group" version="2.1.1.201809052142"/>
-		<repository location="https://p2.enflex.it/eom/snapshots/"/>
 	</location>
 </locations>
 </target>
