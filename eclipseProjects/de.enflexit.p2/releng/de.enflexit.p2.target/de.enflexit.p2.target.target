@@ -16,12 +16,12 @@
 		<repository location="https://p2.enflex.it/workbench/snapshots/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="de.enflexit.eom.feature.feature.group" version="2.2.0.201810210021"/>
+		<unit id="de.enflexit.eom.feature.feature.group" version="2.2.0.201810301024"/>
 		<repository location="https://p2.enflex.it/eom/snapshots/"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<unit id="net.agenthygrid.feature.feature.group" version="2.0.1.201810210031"/>
-		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.1.201810210031"/>
+		<unit id="net.agenthygrid.feature.feature.group" version="2.0.1.201810301124"/>
+		<unit id="net.agenthygrid.feature.source.feature.group" version="2.0.1.201810301124"/>
 		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
 	</location>
 </locations>
