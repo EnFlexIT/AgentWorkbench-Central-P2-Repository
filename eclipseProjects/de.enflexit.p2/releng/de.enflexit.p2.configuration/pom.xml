@@ -12,6 +12,8 @@
 		<tycho-extras-version>${tycho-version}</tycho-extras-version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		
+		<target-platform-version>4.13.0-SNAPSHOT</target-platform-version>
+		
 		<url.repository.snapshotDir>/eom/snapshots/</url.repository.snapshotDir>
 		<url.repository.snapshotDomain>https://p2.enflex.it</url.repository.snapshotDomain>
 		
@@ -47,7 +49,7 @@
 						<artifact>
 							<groupId>de.enflexit.p2</groupId>
 							<artifactId>de.enflexit.p2.target</artifactId>
-							<version>4.8.0-SNAPSHOT</version>
+							<version>${target-platform-version}</version>
 						</artifact>
 					</target>
 					<environments>
