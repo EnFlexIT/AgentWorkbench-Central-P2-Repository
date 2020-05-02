@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-  <feature id="org.agentgui.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+   <feature id="org.agentgui.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="org.agentgui"/>
    </feature>
    <feature id="org.agentgui.feature.source" version="0.0.0">
@@ -21,12 +21,6 @@
    <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
-   <feature id="net.agenthygrid.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
-      <category name="net.agenthygrid"/>
-   </feature>
-   <feature id="net.agenthygrid.feature.source" version="0.0.0">
-      <category name="net.agenthygrid"/>
-   </feature>
    <category-def name="org.agentgui" label="Agent.Workbench"/>
    <category-def name="de.enflexit.eom" label="Energy Option Model"/>
-   <category-def name="net.agenthygrid" label="Agent.HyGrid"/></site>
+</site>
