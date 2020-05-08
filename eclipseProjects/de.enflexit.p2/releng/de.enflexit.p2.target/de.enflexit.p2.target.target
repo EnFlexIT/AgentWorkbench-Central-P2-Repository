@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><?pde version="3.8"?><target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="107">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?>
+<target includeMode="feature" name="de.enflexit.p2.target" sequenceNumber="107">
 <locations>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="de.enflexit.common.feature.feature.group" version="0.0.0"/>
@@ -18,5 +20,10 @@
 		<repository location="https://p2.enflex.it/hygrid/snapshots/"/>
 	</location>
 	-->
+	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+		<repository location="https://p2.enflex.it/energyAgent/snapshots/"/>
+		<unit id="de.enflexit.ea.feature.feature.group" version="1.0.0.202005081522"/>
+		<unit id="de.enflexit.ea.feature.source.feature.group" version="1.0.0.202005081522"/>
+	</location>
 </locations>
 </target>

@@ -21,6 +21,13 @@
    <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
+   <feature id="de.enflexit.ea.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+      <category name="de.enflexit.ea"/>
+   </feature>
+   <feature id="de.enflexit.ea.feature.source" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+      <category name="de.enflexit.ea"/>
+   </feature>
    <category-def name="org.agentgui" label="Agent.Workbench"/>
    <category-def name="de.enflexit.eom" label="Energy Option Model"/>
+   <category-def name="de.enflexit.ea" label="Energy Agent"/>
 </site>
