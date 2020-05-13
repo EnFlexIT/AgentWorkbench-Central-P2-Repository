@@ -22,8 +22,8 @@
 	-->
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<repository location="https://p2.enflex.it/energyAgent/snapshots/"/>
-		<unit id="de.enflexit.ea.feature.feature.group" version="1.0.0.202005081522"/>
-		<unit id="de.enflexit.ea.feature.source.feature.group" version="1.0.0.202005081522"/>
+		<unit id="de.enflexit.ea.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.ea.feature.source.feature.group" version="0.0.0"/>
 	</location>
 </locations>
 </target>
