@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
+   
    <feature id="org.agentgui.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="org.agentgui"/>
    </feature>
@@ -12,16 +13,22 @@
    <feature id="de.enflexit.common.feature.source" version="0.0.0">
       <category name="org.agentgui"/>
    </feature>
+   <category-def name="org.agentgui" label="Agent.Workbench"/>
+   
    <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
+   <feature id="de.enflexit.eom.feature.source" version="0.0.0">
+      <category name="de.enflexit.eom"/>
+   </feature>
+   <category-def name="de.enflexit.eom" label="Energy Option Model"/>
+   
    <feature id="de.enflexit.ea.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.ea"/>
    </feature>
    <feature id="de.enflexit.ea.feature.source" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.ea"/>
    </feature>
-   <category-def name="org.agentgui" label="Agent.Workbench"/>
-   <category-def name="de.enflexit.eom" label="Energy Option Model"/>
    <category-def name="de.enflexit.ea" label="Energy Agent"/>
+
 </site>
