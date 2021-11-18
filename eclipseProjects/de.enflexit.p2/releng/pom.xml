@@ -14,7 +14,7 @@
 
     <modules>
       <module>de.enflexit.p2.configuration</module>
-      <module>de.enflexit.p2.update</module>
       <module>de.enflexit.p2.target</module>
+      <module>de.enflexit.p2.update</module>
     </modules>
 </project>

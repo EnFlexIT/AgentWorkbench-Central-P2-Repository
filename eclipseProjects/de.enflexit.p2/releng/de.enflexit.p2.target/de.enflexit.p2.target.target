@@ -11,12 +11,13 @@
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 		<unit id="de.enflexit.eom.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.eom.feature.source.feature.group" version="0.0.0"/>
 		<repository location="https://p2.enflex.it/eom/snapshots/"/>
 	</location>	
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-		<repository location="https://p2.enflex.it/energyAgent/snapshots/"/>
 		<unit id="de.enflexit.ea.feature.feature.group" version="0.0.0"/>
 		<unit id="de.enflexit.ea.feature.source.feature.group" version="0.0.0"/>
+		<repository location="https://p2.enflex.it/energyAgent/snapshots/"/>
 	</location>
 </locations>
 </target>
