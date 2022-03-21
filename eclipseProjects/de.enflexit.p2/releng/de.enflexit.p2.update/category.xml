@@ -14,6 +14,12 @@
       <category name="org.agentgui"/>
    </feature>
    <category-def name="org.agentgui" label="Agent.Workbench"/>
+    <feature id="de.enflexit.awb.ws.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+	   <category name="org.agentgui"/>
+   </feature>
+   <feature id="de.enflexit.awb.ws.feature.source">
+	   <category name="org.agentgui"/>
+   </feature>
    
    <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
