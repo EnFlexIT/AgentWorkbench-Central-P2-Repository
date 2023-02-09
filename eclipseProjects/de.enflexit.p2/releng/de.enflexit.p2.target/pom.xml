@@ -4,7 +4,7 @@
 	
 	<groupId>de.enflexit.p2</groupId>
 	<artifactId>de.enflexit.p2.target</artifactId>
-	<version>4.25.1-SNAPSHOT</version>
+	<version>4.26.0-SNAPSHOT</version>
 	<packaging>eclipse-target-definition</packaging>
 	
 	<parent>
