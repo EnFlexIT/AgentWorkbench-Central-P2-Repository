@@ -17,7 +17,7 @@
 		<url.repository.snapshotDir>/eom/snapshots/</url.repository.snapshotDir>
 		<url.repository.snapshotDomain>https://p2.enflex.it</url.repository.snapshotDomain>
 		
-		<url.repository.releaseDir>/awb/2.2/</url.repository.releaseDir>
+		<url.repository.releaseDir>/awb/2.3/</url.repository.releaseDir>
 		<url.repository.releaseDomain>https://p2.enflex.it</url.repository.releaseDomain>
 		
 		<repository.subDir>${url.repository.releaseDir}</repository.subDir>
