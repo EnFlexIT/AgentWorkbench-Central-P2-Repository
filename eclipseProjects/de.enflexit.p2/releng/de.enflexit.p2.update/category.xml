@@ -27,7 +27,7 @@
     <feature id="de.enflexit.optimization.feature" os="linux,macosx,win32" arch="x86,x86_64">
       <category name="de.enflexit.optimization"/>
    </feature>
-   <feature id="de.enflexit.optimization.feature.source" os="linux,macosx,win32" arch="x86,x86_64">
+   <feature id="de.enflexit.optimization.feature.source">
       <category name="de.enflexit.optimization"/>
    </feature>
    
@@ -40,7 +40,7 @@
    <feature id="de.enflexit.eom.optimization.feature" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
-      <feature id="de.enflexit.eom.optimization.feature.source" os="linux,macosx,win32" arch="x86_64">
+      <feature id="de.enflexit.eom.optimization.feature.source">
       <category name="de.enflexit.eom"/>
    </feature>
    
