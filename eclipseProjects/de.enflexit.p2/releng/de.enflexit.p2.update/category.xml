@@ -24,6 +24,13 @@
    <feature id="de.enflexit.awb.ws.restapi.feature.source">
       <category name="de.enflexit.awb.ws"/>
    </feature>
+    <feature id="de.enflexit.optimization.feature" os="linux,macosx,win32" arch="x86,x86_64">
+      <category name="de.enflexit.optimization"/>
+   </feature>
+   <feature id="de.enflexit.optimization.feature.source" os="linux,macosx,win32" arch="x86,x86_64">
+      <category name="de.enflexit.optimization"/>
+   </feature>
+   
    <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
@@ -44,20 +51,14 @@
       <category name="de.enflexit.ea"/>
    </feature>
    
-   <feature id="de.enflexit.optimization.feature" os="linux,macosx,win32" arch="x86,x86_64">
-      <category name="de.enflexit.optimization"/>
-   </feature>
-   <feature id="de.enflexit.optimization.feature.source" os="linux,macosx,win32" arch="x86,x86_64">
-      <category name="de.enflexit.optimization"/>
-   </feature>
-   
    <category-def name="org.agentgui" label="Agent.Workbench"/>
-   <category-def name="de.enflexit.awb.ws" label="Agent.Workbench - WS">
-      <category name="org.agentgui"/>
-   </category-def>
-   <category-def name="de.enflexit.eom" label="Energy Option Model"/>
-   <category-def name="de.enflexit.ea" label="Energy Agent"/>
    <category-def name="de.enflexit.optimization" label="Agent.Workbench - Optimization">
       <category name="org.agentgui"/>
    </category-def>
+   <category-def name="de.enflexit.awb.ws" label="Agent.Workbench - WS">
+      <category name="org.agentgui"/>
+   </category-def>
+
+   <category-def name="de.enflexit.eom" label="Energy Option Model"/>
+   <category-def name="de.enflexit.ea" label="Energy Agent"/>
 </site>
