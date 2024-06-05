@@ -31,6 +31,19 @@
       <category name="de.enflexit.optimization"/>
    </feature>
    
+   <feature id="de.enflexit.connector.core.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+      <category name="de.enflexit.connector"/>
+   </feature>
+   <feature id="de.enflexit.connector.core.feature.source">
+      <category name="de.enflexit.connector"/>
+   </feature>
+   <feature id="de.enflexit.connector.mqtt.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+      <category name="de.enflexit.connector.implementations"/>
+   </feature>
+   <feature id="de.enflexit.connector.mqtt.feature.source">
+      <category name="de.enflexit.connector.implementations"/>
+   </feature>
+   
    <feature id="de.enflexit.eom.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.eom"/>
    </feature>
@@ -52,6 +65,13 @@
    </feature>
    
    <category-def name="org.agentgui" label="Agent.Workbench"/>
+   <category-def name="de.enflexit.connector" label="Agent.Workbench - Connectors">
+      <category name="org.agentgui"/>
+   </category-def>
+   <category-def name="de.enflexit.connector.implementations" label="Agent.Workbench - Connector Implementations">
+      <category name="de.enflexit.connector"/>
+   </category-def>
+   
    <category-def name="de.enflexit.optimization" label="Agent.Workbench - Optimization">
       <category name="org.agentgui"/>
    </category-def>
