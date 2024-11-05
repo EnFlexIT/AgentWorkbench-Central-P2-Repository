@@ -16,6 +16,8 @@
 		<unit id="de.enflexit.connector.core.feature.source.feature.group" version="0.0.0"/>
 		<unit id="de.enflexit.connector.mqtt.feature.feature.group" version="0.0.0"/>
 		<unit id="de.enflexit.connector.mqtt.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.opcua.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.opcua.feature.source.feature.group" version="0.0.0"/>
 		<repository location="https://p2.enflex.it/connector/snapshots"/>
 	</location>
 	<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
