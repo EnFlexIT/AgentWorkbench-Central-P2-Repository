@@ -7,21 +7,21 @@
 		<unit id="de.enflexit.awb.desktop.feature.source.feature.group" version="0.0.0"/>
 		<unit id="de.enflexit.awb.ws.feature.feature.group" version="0.0.0"/>
 		<unit id="de.enflexit.awb.ws.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.core.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.core.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.mqtt.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.mqtt.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.opcua.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.connector.opcua.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.ea.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.ea.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.eom.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.eom.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.eom.optimization.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.eom.optimization.feature.source.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.optimization.feature.feature.group" version="0.0.0"/>
+		<unit id="de.enflexit.optimization.feature.source.feature.group" version="0.0.0"/>
 		<repository location="https://p2.enflex.it/awb/3.0/"/>
-		<unit id="de.enflexit.connector.core.feature.feature.group" version="1.1.0.202505271128"/>
-		<unit id="de.enflexit.connector.core.feature.source.feature.group" version="1.1.0.202505271128"/>
-		<unit id="de.enflexit.connector.mqtt.feature.feature.group" version="1.3.3.202505271128"/>
-		<unit id="de.enflexit.connector.mqtt.feature.source.feature.group" version="1.3.3.202505271128"/>
-		<unit id="de.enflexit.connector.opcua.feature.feature.group" version="0.6.13.202505271128"/>
-		<unit id="de.enflexit.connector.opcua.feature.source.feature.group" version="0.6.13.202505271128"/>
-		<unit id="de.enflexit.ea.feature.feature.group" version="3.0.0.202505271454"/>
-		<unit id="de.enflexit.ea.feature.source.feature.group" version="3.0.0.202505271454"/>
-		<unit id="de.enflexit.eom.feature.feature.group" version="3.0.0.202505271407"/>
-		<unit id="de.enflexit.eom.feature.source.feature.group" version="3.0.0.202505271407"/>
-		<unit id="de.enflexit.eom.optimization.feature.feature.group" version="1.0.0.202505271407"/>
-		<unit id="de.enflexit.eom.optimization.feature.source.feature.group" version="1.0.0.202505271407"/>
-		<unit id="de.enflexit.optimization.feature.feature.group" version="1.0.0.202505271234"/>
-		<unit id="de.enflexit.optimization.feature.source.feature.group" version="1.0.0.202505271234"/>
 	</location>
 </locations>
 </target>
