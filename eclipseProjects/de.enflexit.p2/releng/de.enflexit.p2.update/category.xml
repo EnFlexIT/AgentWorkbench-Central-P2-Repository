@@ -12,6 +12,12 @@
    <feature id="de.enflexit.awb.ws.feature.source">
       <category name="de.enflexit.awb.ws"/>
    </feature>
+   <feature id="de.enflexit.awb.docker.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+      <category name="de.enflexit.awb.extras"/>
+   </feature>
+   <feature id="de.enflexit.awb.docker.feature.source">
+      <category name="de.enflexit.awb.extras"/>
+   </feature>
    
    <feature id="de.enflexit.connector.core.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.awb.connector"/>
@@ -53,10 +59,10 @@
    </feature>
    
    <feature id="de.enflexit.optimization.feature"  version="0.0.0" os="linux,macosx,win32" arch="x86,x86_64">
-      <category name="de.enflexit.optimization"/>
+      <category name="de.enflexit.awb.extras"/>
    </feature>
    <feature id="de.enflexit.optimization.feature.source"  version="0.0.0">
-      <category name="de.enflexit.optimization"/>
+      <category name="de.enflexit.awb.extras"/>
    </feature>
    
    <category-def name="de.enflexit.awb" label="Agent.Workbench"/>
@@ -66,11 +72,13 @@
    <category-def name="de.enflexit.awb.ws" label="Agent.Workbench-WS">
       <category name="de.enflexit.awb"/>
    </category-def>
+   <category-def name="de.enflexit.awb.extras" label="Agent.Wokbench-Extras">
+      <category name="de.enflexit.awb"/>
+   </category-def>
    <category-def name="de.enflexit.awb.connector" label="Agent.Workbench - Connectors"/>
    <category-def name="de.enflexit.awb.connector.implementations" label="Agent.Workbench - Connector Implementations">
       <category name="de.enflexit.awb.connector"/>
    </category-def>
-   <category-def name="de.enflexit.optimization" label="EnFlex.IT - Optimization Framework"/>
    <category-def name="de.enflexit.eom" label="Energy Option Model"/>
    <category-def name="de.enflexit.ea" label="Energy Agent"/>
 </site>
