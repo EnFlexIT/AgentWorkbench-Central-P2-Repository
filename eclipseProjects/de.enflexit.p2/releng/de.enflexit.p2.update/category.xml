@@ -18,6 +18,12 @@
    <feature id="de.enflexit.awb.docker.feature.source">
       <category name="de.enflexit.awb.extras"/>
    </feature>
+   <feature id="de.enflexit.dataFrame.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
+      <category name="de.enflexit.awb.extras"/>
+   </feature>
+   <feature id="de.enflexit.dataFrame.feature.source">
+      <category name="de.enflexit.awb.extras"/>
+   </feature>
    
    <feature id="de.enflexit.connector.core.feature" version="0.0.0" os="linux,macosx,win32" arch="x86_64">
       <category name="de.enflexit.awb.connector"/>
